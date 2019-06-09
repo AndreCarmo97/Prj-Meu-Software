@@ -1,0 +1,26 @@
+Id do Funcionário: 2019291;
+Nome: André Almeida;
+Cargo: Dev;
+Data de Nascimento: 14/10/1997;
+Idade: 21 anos;
+Salário Bruto: 6500,45;
+N° de Dependentes: 4;
+Desconto por Dependentes: 758,36;
+INSS: 585,04;
+IRRF: 704,24;
+FGTS: 520,04;
+Vale-Transporte: 250,00;
+Salário Líquido: 4441,13
+Id do Funcionário: 20199991;
+Nome: André de Almeida Mendes Carmo;
+Cargo: Dev;
+Data de Nascimento: 14/10/1997;
+Idade: 21 anos;
+Salário Bruto: 5600,25;
+N° de Dependentes: 4;
+Desconto por Dependentes no IR: 758,36;
+INSS: 504,02;
+IRRF: 501,70;
+FGTS: 448,02;
+Vale-Transporte: 350,00;
+Salário Líquido: 3796,51
