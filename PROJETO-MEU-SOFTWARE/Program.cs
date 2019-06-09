@@ -123,10 +123,10 @@ namespace PROJETO_MEU_SOFTWARE
             {
                 sw = File.CreateText(ficheiro);
             }
-            sw.WriteLine($"Id do Funcionário: {"2019" + idFuncionario};\nNome: {nome};\nCargo: {cargo};\nData de Nascimento: {dtNasc.ToShortDateString()};\nIdade: {idade.Days/30/12} anos;\nSalário Bruto: {salarioBruto.ToString("0.00")};\nN° de Dependentes: {dependentes};\nDesconto por Dependentes no IR: {descontoDependentes.ToString("0.00")};\nINSS: {inss.ToString("0.00")};\nIRRF: {irrf.ToString("0.00")};\nFGTS: {fgts.ToString("0.00")};\nVale-Transporte: {vt.ToString("0.00")};\nSalário Líquido: {salarioReaj.ToString("0.00")}");
+            sw.WriteLine($"Id do Funcionário: {"2019" + idFuncionario};\nNome: {nome.ToUpper()};\nCargo: {cargo.ToUpper()};\nData de Nascimento: {dtNasc.ToShortDateString()};\nIdade: {idade.Days/30/12} anos;\nSalário Bruto: {salarioBruto.ToString("0.00")};\nN° de Dependentes: {dependentes};\nDesconto por Dependentes no IR: {descontoDependentes.ToString("0.00")};\nINSS: {inss.ToString("0.00")};\nIRRF: {irrf.ToString("0.00")};\nFGTS: {fgts.ToString("0.00")};\nVale-Transporte: {vt.ToString("0.00")};\nSalário Líquido: {salarioReaj.ToString("0.00")}");
             sw.Close();
 
-            Console.WriteLine($"Dados Fornecidos\n\nId do Funcionário: {"2019" + idFuncionario}\nNome: {nome}\nCargo: {cargo}\nData de Nascimento: {dtNasc.ToShortDateString()}\nIdade: {idade.Days / 30 / 12} anos\n");
+            Console.WriteLine($"Dados Fornecidos\n\nId do Funcionário: {"2019" + idFuncionario}\nNome: {nome.ToUpper()}\nCargo: {cargo.ToUpper()}\nData de Nascimento: {dtNasc.ToShortDateString()}\nIdade: {idade.Days / 30 / 12} anos\n");
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Salário e Descontos Mensais:\n");
